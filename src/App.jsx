@@ -3,6 +3,7 @@ import DefaultLayout from "./layout/DefaultLayOut";
 import HomePage from "./pages/HomePage";
 import ChiSiamo from "./pages/ChiSiamo";
 import ListaDeiPost from "./pages/ListaDeiPost";
+import './App.css';
 
 function App() {
   return (
