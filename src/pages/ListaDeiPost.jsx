@@ -20,12 +20,13 @@ function ListaDeiPost() {
             <div className="container">
                 <h1 className="text-center">Lista dei post</h1>
             </div>
-            <div>
+            <div className="container">
                 {posts.map((post)=>(
                     <div key={post.id}>
                         <div>
                             <h5>{post.title}</h5>
                             <p>{post.body}</p>
+                            <hr />
                         </div>
 
                     </div>
